@@ -15,14 +15,20 @@ li{
     list-style: none;
 }
 
+/* mettre les elements les 1 à cote des autres. */
+
 .flex{
     display: flex;
     flex-wrap: wrap;
 }
 
+/*mettre des espaces entre les elements */ 
+
 .spaceBetween {
     justify-content: space-between;
 }
+
+/* Centrer verticalement */
 
 .alignCenter {
     align-items: center;
@@ -78,12 +84,22 @@ h1 {
     background-color: #f3cb27;
 }
 
-.container {
+/* contenir dans une largeur max de 1000px + centrer au millieu du parent*/ 
+
+.container {  
     max-width: 1000px;
     width: 100%;
     margin: auto;
+  }
 
-
+.width50 {
+    width: 50%;
 }
 
+.width30 {
+    width: 30%;
+}
 
+.P40 {
+    padding: 40px;
+}
