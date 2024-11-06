@@ -103,3 +103,17 @@ h1 {
 .P40 {
     padding: 40px;
 }
+
+.macarte {
+   
+    background-color: #f3cb27;
+}
+
+.marginl {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clientBox {
+    width: 206px;
+}
